@@ -4,6 +4,9 @@
 1. using cmd prompt, go to /server
 2. run "tsc", then "node src/app.js"
 3. run angular project (using "ng serve --open" in root directory)
+* if "XMLHttpRequest blocked by CORS Policy" error occurs, download chorme extension CORS httprequest and turn it on before running server
+https://stackoverflow.com/questions/20035101/why-does-my-javascript-code-get-a-no-access-control-allow-origin-header-is-pr
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
