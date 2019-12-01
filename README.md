@@ -1,5 +1,10 @@
 # HttpTest
 
+## How to run
+1. using cmd prompt, go to /server
+2. run "tsc", then "node src/app.js"
+3. run angular project (using "ng serve --open" in root directory)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
 ## Development server

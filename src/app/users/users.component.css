@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    padding:10px;
+    
+}
+.colName{
+    font-size: 15px;
+    font-weight: bold;
+    width: 80px;
+    padding:10px 10px 10px 0px;
+}
+
+.user{
+    display: flex;
+    font-size: 20px;
+    padding:10px;
+}
+
+.name{
+    width:80px;
+}
+.major{
+    width:200px;
+}
+
+.name{
+    padding: 0px 10px 0px 0px;
+}
+
+.label{
+    margin: 10px;
+}

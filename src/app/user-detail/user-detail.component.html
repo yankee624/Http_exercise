@@ -1,0 +1,13 @@
+<div *ngIf="user">
+    <div class="element">
+        <label class="label">NAME:
+            <input class="input" [(ngModel)]="user.name" placeholder="name"/>
+        </label>
+    </div>
+    <div class="element">
+        <label class="label">MAJOR:
+            <input class="input" [(ngModel)]="user.major" placeholder="major"/>
+        </label>
+    </div>
+    <button (click)="save()">save</button>
+</div>

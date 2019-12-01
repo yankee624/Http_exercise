@@ -1,0 +1,26 @@
+<div class="header">
+    <div class="colName">NAME</div>
+    <div class="colName">MAJOR</div> 
+</div>
+
+<div class="user" *ngFor="let user of users">
+    <div class="name">{{user.name}}</div>
+    <div class="major">{{user.major}}</div>
+
+    <button routerLink="/detail/{{user.id}}">수정</button>
+    <button class="delete" (click)="delete(user)">삭제</button>
+</div>
+
+
+<div>
+    <label class="label">User name:
+        <input #userName />
+    </label>
+    <label class="label">Major:
+        <input #userMajor />
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button (click)="add(userName.value, userMajor.value); userName.value=''; userMajor.value=''">
+        add
+    </button>
+</div>
